@@ -10,15 +10,18 @@ import SocialLinks from '../components/SocialLinks.astro'
 	<main class="min-h-screen bg-mobile xl:bg-desktop bg-no-repeat bg-cover xl:bg-contain py-10 xl:pt-16 flex justify-center">
 		<div class="max-w-[304px] xl:max-w-[1275px]">
 		<header class="mb-[69.8px] xl:mb-[104px]">
-			<Image src={logo} alt='Site Logo' class='w-[120px] h-[19px] xl:w-[200px] xl:h-[32px]'/>
+			<div class="w-[120px] h-[19px] xl:w-[200px] xl:h-[32px]">
+				<Image src={logo} alt='Site Logo' class='w-full h-full object-cover'/>
+			</div>
+			
 		</header>
 
-		<section class="flex flex-col xl:flex-row items-center xl:items-start gap-[60px] mb-[64px]">
+		<section class="flex flex-col xl:flex-row items-center xl:items-start gap-[60px] mb-[64px] xl:mb-[27px]">
 			<Image src={illustration} alt='' class='w-[296px] h-[209px] xl:w-[696px] xl:h-[493px]'/>
 			<div class="text-white text-center xl:text-start flex flex-col items-center xl:items-start xl:pt-8">
 				<h1 class="text-2xl xl:text-[2.5rem] font-semibold leading-[2.25rem] xl:leading-[3.75rem] mb-4 xl:mb-6 max-w-[280px] xl:max-w-[487px]">Build The Community Your Fans Will Love</h1>
 				<p class="font-secondary text-base xl:text-[1.125rem] font-normal leading-[1.5rem] xl:leading-[1.688rem] mb-6 max-w-[304px] xl:max-w-[520px]">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. </p>
-				<a href="#" class="bg-white hover:bg-hover focus:bg-hover outline-none rounded-[20px] shadow-card pt-[11.29px] pb-[10.71px] pl-[75.86px] pr-[75.14px] text-secondary hover:text-white focus:text-white transition duration-500 text-xs leading-[1.125rem]">Register</a>
+				<a href="#" class="bg-white hover:bg-hover focus:bg-hover outline-none rounded-[20px] shadow-card pt-[11.29px] xl:pt-[13px] pb-[10.71px] xl:pb-[16px] pl-[75.86px] xl:pl-[64px] pr-[75.14px] xl:pr-[63px] text-secondary hover:text-white focus:text-white transition duration-500 text-xs xl:text-[1.125rem] leading-[1.125rem]">Register</a>
 			</div>
 		</section>
 
