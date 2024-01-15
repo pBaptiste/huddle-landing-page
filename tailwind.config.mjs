@@ -15,8 +15,8 @@ export default {
 				'card' : '2px 4px 9px 3px rgba(0, 0, 0, 0.26)',
 			},
 			backgroundImage: {
-				'mobile' : 'url(./src/images/bg-mobile.svg)',
-				'desktop' : 'url(./src/images/bg-desktop.svg)',
+				'mobile' : 'url("/src/images/bg-mobile.svg")',
+				'desktop' : 'url("/src/images/bg-desktop.svg")',
 			},
 			container: {
 				padding: {
